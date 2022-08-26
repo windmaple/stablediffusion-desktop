@@ -26,9 +26,15 @@ def main(page: Page):
         try:
             if HF_token.value == "":
                 raise EmptyHFTokenError("Empty Hugging Face token")
+
+            if HF_token.value == "True":
+                token = True
+            else:
+                token = HF_token.value
+
             if pipeline == None:
                 pipeline = StableDiffusionPipeline.from_pretrained(
-                    model_id, use_auth_token=HF_token.value
+                    model_id, use_auth_token=token
                 )
 
             device = "cpu" if gpu_switch.value == False else "cuda"
