@@ -9,7 +9,7 @@ You will need to provide a valid [Hugging Face token with WRITE access](https://
 ## Implementation
 The app is written with [Flet](https://flet.dev/) for simplicity and packaged with PyInstaller.
 
-![SCREENSHOT](assets/screenshot.png)
+![SCREENSHOT](screenshot.png)
 
 
 ## FAQ
