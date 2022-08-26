@@ -20,7 +20,7 @@ Running on Linux:
 
 Running on Mac:
 
-![SCREENSHOT-MAC](screenshot-mac.png)
+![SCREENSHOT-MAC](screenshot-macos.png)
 
 ## FAQ
 1. Why is it so slow when I run it the first time?
