@@ -13,8 +13,14 @@ PyInstaller requires building on each target platform separately (no cross-compi
 ## Implementation
 The app is written with [Flet](https://flet.dev/) for simplicity and packaged with PyInstaller.
 
-![SCREENSHOT](screenshot.png)
+## Screenshots
+Running on Linux:
 
+![SCREENSHOT-LINUX](screenshot-linux.png)
+
+Running on Mac:
+
+![SCREENSHOT-MAC](screenshot-mac.png)
 
 ## FAQ
 1. Why is it so slow when I run it the first time?
