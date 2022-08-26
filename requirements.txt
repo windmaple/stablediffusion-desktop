@@ -2,3 +2,4 @@ transformers
 diffusers
 flet
 pyinstaller
+spacy
