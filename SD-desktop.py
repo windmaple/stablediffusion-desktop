@@ -22,6 +22,7 @@ def main(page: Page):
 
     def run_defusion(prompt):
         global pipeline
+        device = "cpu" if gpu_switch.value == False else "cuda"
 
         try:
             if HF_token.value == "":
@@ -37,7 +38,6 @@ def main(page: Page):
                     model_id, use_auth_token=token
                 )
 
-            device = "cpu" if gpu_switch.value == False else "cuda"
             pipeline = pipeline.to(device)
             image = pipeline(prompt)["sample"][0]
         except EmptyHFTokenError:
