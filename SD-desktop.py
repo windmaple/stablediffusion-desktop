@@ -102,7 +102,7 @@ def main(page: Page):
                 Column(
                     [
                         Text(
-                            "Mandatory Hugging Face WRITE access token\n(https://huggingface.co/docs/hub/security-tokens).\nIt will not shared with anyone:",
+                            "Mandatory Hugging Face WRITE access token\n(https://huggingface.co/docs/hub/security-tokens).\nIt will not be shared with anyone:",
                             size=18,
                             color="blue",
                         ),
